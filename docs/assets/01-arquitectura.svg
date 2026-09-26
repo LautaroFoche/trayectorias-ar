@@ -26,7 +26,7 @@
 <rect x="56" y="515" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
 <text x="78" y="552" fill="#52dbc0" font-size="16">04</text>
 <text x="78" y="590" fill="#fff" font-size="23" font-weight="bold">Controles de calidad</text>
-<text x="78" y="629" fill="#d1deeb" font-size="17">29 pruebas Python · 41 dbt</text>
+<text x="78" y="629" fill="#d1deeb" font-size="17">31 pruebas Python · 41 dbt</text>
 <text x="78" y="657" fill="#d1deeb" font-size="17">Replay con igualdad de contenido</text>
 <text x="78" y="685" fill="#d1deeb" font-size="17">11 tablas comparadas entre motores</text>
 <rect x="502" y="515" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>

@@ -8,7 +8,7 @@
 <rect x="56" y="250" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
 <text x="78" y="287" fill="#52dbc0" font-size="16">01</text>
 <text x="78" y="325" fill="#fff" font-size="23" font-weight="bold">Python</text>
-<text x="78" y="364" fill="#d1deeb" font-size="17">29 pruebas aprobadas</text>
+<text x="78" y="364" fill="#d1deeb" font-size="17">31 pruebas aprobadas</text>
 <text x="78" y="392" fill="#d1deeb" font-size="17">Contratos, fallos y concurrencia</text>
 <text x="78" y="420" fill="#d1deeb" font-size="17">Huella de código sin artefactos</text>
 <rect x="502" y="250" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>

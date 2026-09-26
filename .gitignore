@@ -35,3 +35,5 @@ connection.json
 *.duckdb.wal
 
 .ruff_cache/
+
+reports/pages/

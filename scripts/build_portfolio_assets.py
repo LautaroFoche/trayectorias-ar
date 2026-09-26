@@ -75,7 +75,7 @@ def main():
             (
                 "Controles de calidad",
                 [
-                    "29 pruebas Python · 41 dbt",
+                    "31 pruebas Python · 41 dbt",
                     "Replay con igualdad de contenido",
                     "11 tablas comparadas entre motores",
                 ],
@@ -303,7 +303,7 @@ def main():
             (
                 "Python",
                 [
-                    "29 pruebas aprobadas",
+                    "31 pruebas aprobadas",
                     "Contratos, fallos y concurrencia",
                     "Huella de código sin artefactos",
                 ],

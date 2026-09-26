@@ -8,6 +8,12 @@ Python · SQL · dbt · DuckDB · Snowflake · Airflow · Docker · GitHub Actio
 
 Proyecto de portfolio de **Lautaro Fochesatto**. Integra educación argentina, conectividad y estudios de uso digital. El foco es resolver adquisición, contratos, modelado, calidad, linaje, reproducibilidad y operación. La web HTML/JavaScript es una salida del pipeline y permite inspeccionar datos y procedencia.
 
+## Reporte interactivo
+
+**[Abrir el reporte público](https://lautarofoche.github.io/trayectorias-ar/)** · Disponible sin instalar herramientas ni iniciar sesión. Incluye filtros, fuentes y descargas.
+
+GitHub Pages publica el resultado de la ejecución validada en `main`. Una visita no ejecuta consultas Snowflake. [Detalles del despliegue](docs/PUBLICACION_WEB.md).
+
 ## Objetivo
 
 Construir una cadena completa desde fuentes oficiales hasta productos de datos verificables, que pueda ejecutarse sin servicios pagos y también validarse en Snowflake. Cada observación debe conservar su procedencia; una fuente corrupta o un modelo inválido debe impedir la publicación; un replay de los mismos snapshots debe producir el mismo contenido normalizado.
@@ -69,7 +75,7 @@ Las pruebas cubren corrupción de fuentes, cambios de esquema, duplicados, cober
 
 ![Resumen de controles ejecutados](docs/assets/05-validacion.svg)
 
-- **Python:** 29 pruebas aprobadas; **dbt:** 13 modelos y 41 pruebas.
+- **Python:** 31 pruebas aprobadas; **dbt:** 13 modelos y 41 pruebas.
 - **Docker:** imagen construida y replay offline validado contra el dataset local.
 - **Snowflake:** carga real y comparación de las 11 tablas con DuckDB, tolerancia numérica `1e-9`.
 - **Web:** pruebas funcionales de filtros, nulos, denominadores y enlaces mediante jsdom. QA visual completo en escritorio/móvil pendiente.
@@ -126,7 +132,7 @@ docs/              Investigación, arquitectura, operación y evidencias
 
 El repositorio contiene código, configuración pública y evidencia agregada. No contiene claves, contraseñas, identificadores de cuenta, sesiones ni datos individuales de estudiantes. Los artefactos operativos permanecen fuera de Git. [Política de seguridad](SECURITY.md).
 
-No es un despliegue productivo: faltan coordinación distribuida, publicación conjunta de modelos cloud, alertas y retención automatizada. El monitor no constituye un límite exacto de gasto. Los próximos pasos están priorizados en [TODO.md](TODO.md), con criterios de aceptación.
+La web pública es una demostración estática; el pipeline no es un despliegue productivo: faltan coordinación distribuida, publicación conjunta de modelos cloud, alertas y retención automatizada. El monitor no constituye un límite exacto de gasto. Los próximos pasos están priorizados en [TODO.md](TODO.md), con criterios de aceptación.
 
 [Texto para LinkedIn](docs/LINKEDIN.md) · [guía para presentar el proyecto](docs/PORTFOLIO.md).
 

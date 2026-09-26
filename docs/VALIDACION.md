@@ -6,7 +6,7 @@ Se conserva una síntesis pública en [evidence/validation.json](evidence/valida
 
 | Control | Resultado verificado |
 |---|---|
-| Pruebas Python | 29 aprobadas después de la revisión de publicación |
+| Pruebas Python | 31 aprobadas, incluidas dos pruebas del paquete público |
 | dbt build local | 13 modelos y 41 pruebas aprobados |
 | Replay offline | Mismo hash normalizado y hashes de los 16 artefactos |
 | Docker | Imagen construida y pipeline offline ejecutado; release `20260926T175307_a2643475` |
@@ -40,6 +40,6 @@ El pipeline guarda `run.json`, logs, manifiestos y resultados dbt en el director
 
 ## Límites
 
-Consultar [GitHub Actions](https://github.com/LautaroFoche/trayectorias-ar/actions) para el estado remoto actual. Las pruebas del DOM no sustituyen QA visual de escritorio y móvil, aún pendiente. No hay despliegue web público ni scheduler productivo. La comparación cloud se validó sobre estos datos; no constituye una garantía universal de equivalencia entre motores.
+Consultar [GitHub Actions](https://github.com/LautaroFoche/trayectorias-ar/actions) para el estado remoto actual. Las pruebas del DOM no sustituyen QA visual de escritorio y móvil, aún pendiente. La web se publica mediante GitHub Pages; no hay scheduler productivo. La comparación cloud se validó sobre estos datos; no constituye una garantía universal de equivalencia entre motores.
 
 Los diagramas de `docs/assets/` son ilustraciones documentales, no capturas. Se generan con `python scripts/build_portfolio_assets.py` en el entorno con las ejecuciones local y cloud disponibles. La imagen para LinkedIn se obtiene con ImageMagick: `magick docs/assets/01-arquitectura.svg docs/assets/portfolio-linkedin.png`.

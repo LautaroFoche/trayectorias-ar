@@ -14,6 +14,8 @@ Una decisión central: si falla una validación, la web conserva la última vers
 
 El repositorio incluye arquitectura, investigación, contratos, pruebas, instrucciones de reproducción y límites actuales. Es una demostración de ingeniería; el siguiente paso es fortalecer observabilidad y publicación de versiones en cloud.
 
+Reporte interactivo: https://lautarofoche.github.io/trayectorias-ar/
+
 Repositorio: https://github.com/LautaroFoche/trayectorias-ar
 
 #DataEngineering #Python #SQL #dbt #Snowflake #Airflow #Docker #DatosAbiertos
