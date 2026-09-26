@@ -6,7 +6,7 @@
 
 Python · SQL · dbt · DuckDB · Snowflake · Airflow · Docker · GitHub Actions
 
-Proyecto de portfolio de **Lautaro Fochesatto**. Integra educación argentina, conectividad y estudios de uso digital. El foco es resolver adquisición, contratos, modelado, calidad, linaje, reproducibilidad y operación. La web HTML/JavaScript es una salida del pipeline y permite inspeccionar datos y procedencia.
+Integra educación argentina, conectividad y estudios de uso digital. El foco es resolver adquisición, contratos, modelado, calidad, linaje, reproducibilidad y operación. La web HTML/JavaScript es una salida del pipeline y permite inspeccionar datos y procedencia.
 
 ## Reporte interactivo
 
