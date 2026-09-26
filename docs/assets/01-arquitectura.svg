@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-label="De la publicación oficial al producto de datos">
+<rect width="1440" height="900" fill="#101c2a"/>
+<rect x="56" y="54" width="56" height="6" fill="#52dbc0"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="56" y="99" fill="#52dbc0" font-size="18" letter-spacing="3">TRAYECTORIAS AR / INGENIERÍA DE DATOS / 01</text>
+<text x="56" y="160" fill="#ffffff" font-size="42" font-weight="bold">De la publicación oficial al producto de datos</text>
+<text x="56" y="202" fill="#b7c8da" font-size="20">Dos motores de ejecución, contratos compartidos y procedencia conservada.</text>
+<rect x="56" y="250" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="78" y="287" fill="#52dbc0" font-size="16">01</text>
+<text x="78" y="325" fill="#fff" font-size="23" font-weight="bold">Fuentes oficiales</text>
+<text x="78" y="364" fill="#d1deeb" font-size="17">Educación · WDI · PISA · Kids</text>
+<text x="78" y="392" fill="#d1deeb" font-size="17">ZIP / XLSX / JSON / PDF</text>
+<text x="78" y="420" fill="#d1deeb" font-size="17">4 familias · 16 artefactos</text>
+<rect x="502" y="250" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="524" y="287" fill="#52dbc0" font-size="16">02</text>
+<text x="524" y="325" fill="#fff" font-size="23" font-weight="bold">Snapshots + contratos</text>
+<text x="524" y="364" fill="#d1deeb" font-size="17">HTTPS → SHA-256 → manifiestos</text>
+<text x="524" y="392" fill="#d1deeb" font-size="17">Cobertura, esquema y tipos</text>
+<text x="524" y="420" fill="#d1deeb" font-size="17">Celda / posición JSON / página</text>
+<rect x="948" y="250" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="970" y="287" fill="#52dbc0" font-size="16">03</text>
+<text x="970" y="325" fill="#fff" font-size="23" font-weight="bold">Warehouse</text>
+<text x="970" y="364" fill="#d1deeb" font-size="17">3 tablas raw → 13 modelos dbt</text>
+<text x="970" y="392" fill="#d1deeb" font-size="17">DuckDB local / Snowflake cloud</text>
+<text x="970" y="420" fill="#d1deeb" font-size="17">Hechos con distinto universo</text>
+<rect x="56" y="515" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="78" y="552" fill="#52dbc0" font-size="16">04</text>
+<text x="78" y="590" fill="#fff" font-size="23" font-weight="bold">Controles de calidad</text>
+<text x="78" y="629" fill="#d1deeb" font-size="17">29 pruebas Python · 41 dbt</text>
+<text x="78" y="657" fill="#d1deeb" font-size="17">Replay con igualdad de contenido</text>
+<text x="78" y="685" fill="#d1deeb" font-size="17">11 tablas comparadas entre motores</text>
+<rect x="502" y="515" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="524" y="552" fill="#52dbc0" font-size="16">05</text>
+<text x="524" y="590" fill="#fff" font-size="23" font-weight="bold">Publicación de release</text>
+<text x="524" y="629" fill="#d1deeb" font-size="17">Versión aislada → validar → publicar</text>
+<text x="524" y="657" fill="#d1deeb" font-size="17">Puntero local reemplazado al final</text>
+<text x="524" y="685" fill="#d1deeb" font-size="17">Fallo: conservar última versión</text>
+<rect x="948" y="515" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="970" y="552" fill="#52dbc0" font-size="16">06</text>
+<text x="970" y="590" fill="#fff" font-size="23" font-weight="bold">Consumo + operación</text>
+<text x="970" y="629" fill="#d1deeb" font-size="17">Web HTML/JS · CSV · Parquet</text>
+<text x="970" y="657" fill="#d1deeb" font-size="17">Airflow · Docker · GitHub Actions</text>
+<text x="970" y="685" fill="#d1deeb" font-size="17">Logs y manifiestos por ejecución</text>
+<text x="56" y="837" fill="#96b0c8" font-size="17">Diagrama documental. La atomicidad de publicación local no implica atomicidad conjunta de modelos cloud.</text></g></svg>

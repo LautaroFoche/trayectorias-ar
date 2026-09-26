@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-label="Investigar antes de integrar">
+<rect width="1440" height="900" fill="#101c2a"/>
+<rect x="56" y="54" width="56" height="6" fill="#52dbc0"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="56" y="99" fill="#52dbc0" font-size="18" letter-spacing="3">TRAYECTORIAS AR / INGENIERÍA DE DATOS / 02</text>
+<text x="56" y="160" fill="#ffffff" font-size="42" font-weight="bold">Investigar antes de integrar</text>
+<text x="56" y="202" fill="#b7c8da" font-size="20">Cada formato exige un contrato; cada porcentaje necesita un universo.</text>
+<rect x="56" y="250" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="78" y="287" fill="#52dbc0" font-size="16">01</text>
+<text x="78" y="325" fill="#fff" font-size="23" font-weight="bold">Educación / ZIP + Excel</text>
+<text x="78" y="364" fill="#d1deeb" font-size="17">15.795 celdas normalizadas</text>
+<text x="78" y="392" fill="#d1deeb" font-size="17">27 ámbitos · 13 transiciones</text>
+<text x="78" y="420" fill="#d1deeb" font-size="17">Nulos y tasas fuera de rango</text>
+<rect x="502" y="250" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="524" y="287" fill="#52dbc0" font-size="16">02</text>
+<text x="524" y="325" fill="#fff" font-size="23" font-weight="bold">WDI / API JSON</text>
+<text x="524" y="364" fill="#d1deeb" font-size="17">832 combinaciones esperadas</text>
+<text x="524" y="392" fill="#d1deeb" font-size="17">647 valores + 185 nulos</text>
+<text x="524" y="420" fill="#d1deeb" font-size="17">8 metadatos y año observado</text>
+<rect x="948" y="250" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="970" y="287" fill="#52dbc0" font-size="16">03</text>
+<text x="970" y="325" fill="#fff" font-size="23" font-weight="bold">PISA / Excel</text>
+<text x="970" y="364" fill="#d1deeb" font-size="17">120 estimaciones</text>
+<text x="970" y="392" fill="#d1deeb" font-size="17">Categorías y error estándar</text>
+<text x="970" y="420" fill="#d1deeb" font-size="17">Asociación ≠ efecto causal</text>
+<rect x="56" y="515" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="78" y="552" fill="#52dbc0" font-size="16">04</text>
+<text x="78" y="590" fill="#fff" font-size="23" font-weight="bold">Kids Online / PDF</text>
+<text x="78" y="629" fill="#d1deeb" font-size="17">22 estimaciones revisadas</text>
+<text x="78" y="657" fill="#d1deeb" font-size="17">Hash de edición + ancla de página</text>
+<text x="78" y="685" fill="#d1deeb" font-size="17">Población y denominador explícitos</text>
+<rect x="502" y="515" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="524" y="552" fill="#52dbc0" font-size="16">05</text>
+<text x="524" y="590" fill="#fff" font-size="23" font-weight="bold">Validar procedencia</text>
+<text x="524" y="629" fill="#d1deeb" font-size="17">Productor → formato → cobertura</text>
+<text x="524" y="657" fill="#d1deeb" font-size="17">Referencia ≠ publicación ≠ descarga</text>
+<text x="524" y="685" fill="#d1deeb" font-size="17">Cambios incompatibles: detener</text>
+<rect x="948" y="515" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="970" y="552" fill="#52dbc0" font-size="16">06</text>
+<text x="970" y="590" fill="#fff" font-size="23" font-weight="bold">Conservar límites</text>
+<text x="970" y="629" fill="#d1deeb" font-size="17">No imputar encuestas a provincias</text>
+<text x="970" y="657" fill="#d1deeb" font-size="17">No rellenar huecos con ceros</text>
+<text x="970" y="685" fill="#d1deeb" font-size="17">No desactivar TLS para descargar</text>
+<text x="56" y="837" fill="#96b0c8" font-size="17">Las observaciones son agregadas. Los 16 artefactos no equivalen a 16 estudios independientes.</text></g></svg>

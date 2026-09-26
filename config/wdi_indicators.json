@@ -1,0 +1,58 @@
+[
+  {
+    "code": "SE.XPD.TOTL.GD.ZS",
+    "label": "Gasto público educativo / PIB",
+    "unit": "% del PIB",
+    "producer": "UNESCO UIS",
+    "note": "Porcentaje del PIB destinado a educación; no es gasto real por estudiante."
+  },
+  {
+    "code": "SE.XPD.TOTL.GB.ZS",
+    "label": "Educación / gasto público total",
+    "unit": "% del gasto público",
+    "producer": "UNESCO UIS",
+    "note": "Participación educativa en el gasto público; el denominador difiere del PIB."
+  },
+  {
+    "code": "SE.SEC.ENRR",
+    "label": "Matrícula secundaria bruta",
+    "unit": "% bruto",
+    "producer": "UNESCO UIS",
+    "note": "Incluye estudiantes fuera de la edad teórica; puede superar 100%."
+  },
+  {
+    "code": "SE.PRM.ENRR",
+    "label": "Matrícula primaria bruta",
+    "unit": "% bruto",
+    "producer": "UNESCO UIS",
+    "note": "Incluye estudiantes fuera de la edad teórica; no equivale a cobertura neta."
+  },
+  {
+    "code": "SE.PRM.ENRL.TC.ZS",
+    "label": "Alumnos por docente en primaria",
+    "unit": "alumnos/docente",
+    "producer": "UNESCO UIS",
+    "note": "Relación agregada, no tamaño de clase. Revisar el año: Argentina tiene una serie antigua."
+  },
+  {
+    "code": "SE.SEC.CMPT.LO.ZS",
+    "label": "Finalización de secundaria inferior",
+    "unit": "% de edad de referencia",
+    "producer": "UNESCO UIS",
+    "note": "Tasa de finalización según definición UIS; no equivale al egreso de toda la secundaria argentina."
+  },
+  {
+    "code": "IT.NET.USER.ZS",
+    "label": "Personas que usan Internet",
+    "unit": "% de población",
+    "producer": "ITU",
+    "note": "Población general; no es una medida específica de estudiantes ni de uso de redes."
+  },
+  {
+    "code": "IT.NET.BBND.P2",
+    "label": "Suscripciones de banda ancha fija",
+    "unit": "suscripciones / 100 habitantes",
+    "producer": "ITU",
+    "note": "Suscripciones, no personas ni escuelas conectadas."
+  }
+]

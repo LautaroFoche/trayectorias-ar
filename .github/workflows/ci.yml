@@ -1,0 +1,40 @@
+name: Validate education pipeline
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.12.9'
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: uv sync --frozen --extra dev --python 3.13
+      - name: Python static checks
+        run: uvx ruff==0.11.13 check --select F src scripts tests orchestration
+      - run: .venv/bin/pytest -q
+      - name: Integration against official sources
+        run: .venv/bin/trayectorias run
+      - name: Verify offline reproducibility
+        run: .venv/bin/python scripts/check_reproducibility.py
+      - run: npm run test:web
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pipeline-evidence
+          path: reports/runs/**/run.json
+  airflow:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: make airflow-setup airflow-check

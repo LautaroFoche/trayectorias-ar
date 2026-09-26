@@ -1,0 +1,16 @@
+.venv
+.airflow-venv
+.airflow
+.git
+data
+reports
+.env
+**/*.p8
+**/*.pem
+**/*.key
+node_modules
+
+deliverables
+STATE.md
+analytics
+.ruff_cache

@@ -1,0 +1,45 @@
+{
+  "description": "Resumen de ejecuciones, sin configuración de cuenta ni logs.",
+  "local": {
+    "run_id": "20260926T183126_c2e0b1d1",
+    "status": "success",
+    "total_observations": 16769,
+    "dataset_sha256": "b4b723f8eff196e2fa6ea6a217c246303d949f0b2f2cefec676baff15dc03c17",
+    "models": 13,
+    "tests": 41,
+    "all_results_successful": true
+  },
+  "snowflake": {
+    "run_id": "20260926T180439_snowflake_e4ed67",
+    "status": "success",
+    "total_observations": 16769,
+    "dataset_sha256": "b4b723f8eff196e2fa6ea6a217c246303d949f0b2f2cefec676baff15dc03c17",
+    "models": 13,
+    "tests": 41,
+    "all_results_successful": true
+  },
+  "comparison": "11 tablas iguales a DuckDB; tolerancia numérica 1e-9",
+  "source_hashes": {
+    "educacion_abandono": "18911b578fd943d3fa45fd37b5bd23d40f05543e2a0f4db325e239458c044204",
+    "educacion_promocion": "93fc03ae2e786d7bd1c0670cffb82c358d6dc57e7571fe4561dd7bb15c014113",
+    "educacion_repitencia": "389201fe82b73609120e9e08729d406b2f430767df841ca65095c9639eef212a",
+    "wdi_data": "a7bcf387b7221584257ec6dbd22f794f17cd6bb7d4a8db2d477dec50a29e814b",
+    "wdi_meta_se_xpd_totl_gd_zs": "b6fc4e9721511a5bace96a4befdaac2f00630ff7af63184956571027ea22f4f7",
+    "wdi_meta_se_xpd_totl_gb_zs": "fcd067aba65f018bd2036c3b7c8c34b437c19b3496e0a2cd8958502b1c5ed1a7",
+    "wdi_meta_se_sec_enrr": "eec553a1bd5742b286200a0a8b461f396409e1bb323ef4dcfae40e0ba012565e",
+    "wdi_meta_se_prm_enrr": "980f33c14c3b9ec694a793ad9fb54eb0f4367be4eec5de0d21ff36ef3b88326d",
+    "wdi_meta_se_prm_enrl_tc_zs": "167ba0b5cf4b80cdd943743647f3a29829513de63b9ab69f973b9b5fe0ebee8b",
+    "wdi_meta_se_sec_cmpt_lo_zs": "76a260533f7cbe4ad349a9e9f53a81881b97c7d563b57252faa6f3a7ae056a26",
+    "wdi_meta_it_net_user_zs": "6e6fc76f94bda17bd30c3303f1e8965698c93d344c26a556ea6ee18a86c3cc32",
+    "wdi_meta_it_net_bbnd_p2": "60cc834eefb84a39625796fd1709d7cce852dca105004eb913f15e6a11e2888c",
+    "pisa_ch3": "a2962a51ea18e324aa182041344ac5d856cc49351e4a966a11733f596a34a5c1",
+    "pisa_ch5": "d8db2ab7d56e9ee99ae65eac3910d13343a6a027bef1a4aaee81cbc88f686a29",
+    "kids_summary": "321fbc9f52ddd4092c1b1db7cbd0f31d638d2d056c0f91b0ff65d3e756d9beac",
+    "kids_full": "d8b4c9cc70ae9c9888912aa504f8033bbe1c1e9d812df86891e737e1a65c35f3"
+  },
+  "limits": [
+    "CI: consultar Actions",
+    "QA visual de escritorio/móvil pendiente",
+    "Docker y Snowflake validados antes de la revisión documental; ver VALIDACION.md"
+  ]
+}

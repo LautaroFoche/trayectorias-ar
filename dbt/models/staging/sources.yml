@@ -1,0 +1,24 @@
+version: 2
+sources:
+  - name: education
+    schema: raw
+    tables:
+      - name: observations
+        description: Snapshot completo validado; valores en puntos porcentuales, con celda y hash de fuente.
+        columns:
+          - name: observation_id
+            data_tests: [not_null, unique]
+          - name: source_sha256
+            data_tests: [not_null]
+          - name: source_cell
+            data_tests: [not_null]
+      - name: context_observations
+        columns:
+          - name: observation_id
+            data_tests: [not_null, unique]
+          - name: source_id
+            data_tests: [not_null]
+      - name: source_catalog
+        columns:
+          - name: source_id
+            data_tests: [not_null, unique]

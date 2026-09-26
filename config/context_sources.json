@@ -1,0 +1,116 @@
+[
+  {
+    "id": "wdi_data",
+    "kind": "wdi",
+    "family": "Banco Mundial · WDI",
+    "producer": "UNESCO UIS / ITU vía Banco Mundial",
+    "url": "https://api.worldbank.org/v2/country/ARG;BRA;CHL;URY/indicator/SE.XPD.TOTL.GD.ZS;SE.XPD.TOTL.GB.ZS;SE.SEC.ENRR;SE.PRM.ENRR;SE.PRM.ENRL.TC.ZS;SE.SEC.CMPT.LO.ZS;IT.NET.USER.ZS;IT.NET.BBND.P2?source=2&format=json&date=2000:2025&per_page=20000",
+    "format": "json"
+  },
+  {
+    "id": "wdi_meta_se_xpd_totl_gd_zs",
+    "kind": "wdi_metadata",
+    "family": "Banco Mundial · WDI",
+    "producer": "Banco Mundial",
+    "url": "https://api.worldbank.org/v2/indicator/SE.XPD.TOTL.GD.ZS?source=2&format=json",
+    "format": "json",
+    "indicator": "SE.XPD.TOTL.GD.ZS"
+  },
+  {
+    "id": "wdi_meta_se_xpd_totl_gb_zs",
+    "kind": "wdi_metadata",
+    "family": "Banco Mundial · WDI",
+    "producer": "Banco Mundial",
+    "url": "https://api.worldbank.org/v2/indicator/SE.XPD.TOTL.GB.ZS?source=2&format=json",
+    "format": "json",
+    "indicator": "SE.XPD.TOTL.GB.ZS"
+  },
+  {
+    "id": "wdi_meta_se_sec_enrr",
+    "kind": "wdi_metadata",
+    "family": "Banco Mundial · WDI",
+    "producer": "Banco Mundial",
+    "url": "https://api.worldbank.org/v2/indicator/SE.SEC.ENRR?source=2&format=json",
+    "format": "json",
+    "indicator": "SE.SEC.ENRR"
+  },
+  {
+    "id": "wdi_meta_se_prm_enrr",
+    "kind": "wdi_metadata",
+    "family": "Banco Mundial · WDI",
+    "producer": "Banco Mundial",
+    "url": "https://api.worldbank.org/v2/indicator/SE.PRM.ENRR?source=2&format=json",
+    "format": "json",
+    "indicator": "SE.PRM.ENRR"
+  },
+  {
+    "id": "wdi_meta_se_prm_enrl_tc_zs",
+    "kind": "wdi_metadata",
+    "family": "Banco Mundial · WDI",
+    "producer": "Banco Mundial",
+    "url": "https://api.worldbank.org/v2/indicator/SE.PRM.ENRL.TC.ZS?source=2&format=json",
+    "format": "json",
+    "indicator": "SE.PRM.ENRL.TC.ZS"
+  },
+  {
+    "id": "wdi_meta_se_sec_cmpt_lo_zs",
+    "kind": "wdi_metadata",
+    "family": "Banco Mundial · WDI",
+    "producer": "Banco Mundial",
+    "url": "https://api.worldbank.org/v2/indicator/SE.SEC.CMPT.LO.ZS?source=2&format=json",
+    "format": "json",
+    "indicator": "SE.SEC.CMPT.LO.ZS"
+  },
+  {
+    "id": "wdi_meta_it_net_user_zs",
+    "kind": "wdi_metadata",
+    "family": "Banco Mundial · WDI",
+    "producer": "Banco Mundial",
+    "url": "https://api.worldbank.org/v2/indicator/IT.NET.USER.ZS?source=2&format=json",
+    "format": "json",
+    "indicator": "IT.NET.USER.ZS"
+  },
+  {
+    "id": "wdi_meta_it_net_bbnd_p2",
+    "kind": "wdi_metadata",
+    "family": "Banco Mundial · WDI",
+    "producer": "Banco Mundial",
+    "url": "https://api.worldbank.org/v2/indicator/IT.NET.BBND.P2?source=2&format=json",
+    "format": "json",
+    "indicator": "IT.NET.BBND.P2"
+  },
+  {
+    "id": "pisa_ch3",
+    "kind": "pisa",
+    "family": "OECD · PISA 2022",
+    "producer": "OECD",
+    "url": "https://stat.link/d5rsh2",
+    "format": "xlsx"
+  },
+  {
+    "id": "pisa_ch5",
+    "kind": "pisa",
+    "family": "OECD · PISA 2022",
+    "producer": "OECD",
+    "url": "https://stat.link/pyhr6e",
+    "format": "xlsx"
+  },
+  {
+    "id": "kids_summary",
+    "kind": "reviewed_pdf",
+    "family": "UNICEF / UNESCO · Kids Online",
+    "producer": "UNICEF / UNESCO",
+    "url": "https://www.unicef.org/argentina/media/24881/file/ResumenEjecutivoKidsOnline2025.pdf.pdf",
+    "format": "pdf",
+    "reviewed_sha256": "321fbc9f52ddd4092c1b1db7cbd0f31d638d2d056c0f91b0ff65d3e756d9beac"
+  },
+  {
+    "id": "kids_full",
+    "kind": "reviewed_pdf",
+    "family": "UNICEF / UNESCO · Kids Online",
+    "producer": "UNICEF / UNESCO",
+    "url": "https://www.unicef.org/argentina/media/24916/file/NI%C3%91AS,%20NI%C3%91OS%20Y%20ADOLESCENTES%20CONECTADOS%20%20KIDS%20ONLINE%20ARGENTINA%20Informe%20de%20resultados.pdf",
+    "format": "pdf",
+    "reviewed_sha256": "d8b4c9cc70ae9c9888912aa504f8033bbe1c1e9d812df86891e737e1a65c35f3"
+  }
+]

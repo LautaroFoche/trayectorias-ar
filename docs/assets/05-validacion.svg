@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-label="Garantías respaldadas por ejecuciones">
+<rect width="1440" height="900" fill="#101c2a"/>
+<rect x="56" y="54" width="56" height="6" fill="#52dbc0"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="56" y="99" fill="#52dbc0" font-size="18" letter-spacing="3">TRAYECTORIAS AR / INGENIERÍA DE DATOS / 05</text>
+<text x="56" y="160" fill="#ffffff" font-size="42" font-weight="bold">Garantías respaldadas por ejecuciones</text>
+<text x="56" y="202" fill="#b7c8da" font-size="20">Snapshot validado en septiembre de 2026. CI remota: consultar el badge y los logs de GitHub Actions.</text>
+<rect x="56" y="250" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="78" y="287" fill="#52dbc0" font-size="16">01</text>
+<text x="78" y="325" fill="#fff" font-size="23" font-weight="bold">Python</text>
+<text x="78" y="364" fill="#d1deeb" font-size="17">29 pruebas aprobadas</text>
+<text x="78" y="392" fill="#d1deeb" font-size="17">Contratos, fallos y concurrencia</text>
+<text x="78" y="420" fill="#d1deeb" font-size="17">Huella de código sin artefactos</text>
+<rect x="502" y="250" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="524" y="287" fill="#52dbc0" font-size="16">02</text>
+<text x="524" y="325" fill="#fff" font-size="23" font-weight="bold">dbt</text>
+<text x="524" y="364" fill="#d1deeb" font-size="17">13 modelos · 41 pruebas</text>
+<text x="524" y="392" fill="#d1deeb" font-size="17">Claves, relaciones y semántica</text>
+<text x="524" y="420" fill="#d1deeb" font-size="17">Resultados de build conservados</text>
+<rect x="948" y="250" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="970" y="287" fill="#52dbc0" font-size="16">03</text>
+<text x="970" y="325" fill="#fff" font-size="23" font-weight="bold">Reproducibilidad</text>
+<text x="970" y="364" fill="#d1deeb" font-size="17">16.769 observaciones</text>
+<text x="970" y="392" fill="#d1deeb" font-size="17">Mismos snapshots → mismo dataset</text>
+<text x="970" y="420" fill="#d1deeb" font-size="17">16 hashes de fuentes verificados</text>
+<rect x="56" y="515" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="78" y="552" fill="#52dbc0" font-size="16">04</text>
+<text x="78" y="590" fill="#fff" font-size="23" font-weight="bold">Snowflake</text>
+<text x="78" y="629" fill="#d1deeb" font-size="17">Ejecución real con clave de servicio</text>
+<text x="78" y="657" fill="#d1deeb" font-size="17">11 tablas equivalentes a DuckDB</text>
+<text x="78" y="685" fill="#d1deeb" font-size="17">Tolerancia numérica: 1e-9</text>
+<rect x="502" y="515" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="524" y="552" fill="#52dbc0" font-size="16">05</text>
+<text x="524" y="590" fill="#fff" font-size="23" font-weight="bold">Docker + Airflow</text>
+<text x="524" y="629" fill="#d1deeb" font-size="17">Imagen y replay offline ejecutados</text>
+<text x="524" y="657" fill="#d1deeb" font-size="17">DAG probado en entorno separado</text>
+<text x="524" y="685" fill="#d1deeb" font-size="17">Sin scheduler productivo activo</text>
+<rect x="948" y="515" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="970" y="552" fill="#52dbc0" font-size="16">06</text>
+<text x="970" y="590" fill="#fff" font-size="23" font-weight="bold">Web + límites</text>
+<text x="970" y="629" fill="#d1deeb" font-size="17">Filtros y enlaces: pruebas jsdom</text>
+<text x="970" y="657" fill="#d1deeb" font-size="17">QA visual completo pendiente</text>
+<text x="970" y="685" fill="#d1deeb" font-size="17">Datos públicos agregados</text>
+<text x="56" y="837" fill="#96b0c8" font-size="17">Evidencia: docs/evidence/validation.json. Síntesis documental; no es una captura de las interfaces de ejecución.</text></g></svg>

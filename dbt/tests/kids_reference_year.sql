@@ -1,0 +1,1 @@
+select * from {{ ref('mart_digital_evidence') }} where source_id like 'kids_%' and (year<>2024 or publication_year<>2025 or country_code<>'ARG' or extraction_method<>'revision_manual_con_hash_y_ancla')

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-label="Modelo del warehouse y rutas de linaje">
+<rect width="1440" height="900" fill="#101c2a"/>
+<rect x="56" y="54" width="56" height="6" fill="#52dbc0"/>
+<g font-family="DejaVu Sans, sans-serif">
+<text x="56" y="99" fill="#52dbc0" font-size="18" letter-spacing="3">TRAYECTORIAS AR / INGENIERÍA DE DATOS / 03</text>
+<text x="56" y="160" fill="#ffffff" font-size="42" font-weight="bold">Modelo del warehouse y rutas de linaje</text>
+<text x="56" y="202" fill="#b7c8da" font-size="20">Las flechas se leen dentro de cada tarjeta; ambos dominios preservan su propio grano.</text>
+<rect x="56" y="250" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="78" y="287" fill="#52dbc0" font-size="16">01</text>
+<text x="78" y="325" fill="#fff" font-size="23" font-weight="bold">Entrada educativa</text>
+<text x="78" y="364" fill="#d1deeb" font-size="17">raw.observations</text>
+<text x="78" y="392" fill="#d1deeb" font-size="17">→ stg_observations</text>
+<text x="78" y="420" fill="#d1deeb" font-size="17">→ int_transitions</text>
+<rect x="502" y="250" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="524" y="287" fill="#52dbc0" font-size="16">02</text>
+<text x="524" y="325" fill="#fff" font-size="23" font-weight="bold">Dimensiones + hecho</text>
+<text x="524" y="364" fill="#d1deeb" font-size="17">dim_geography / dim_period</text>
+<text x="524" y="392" fill="#d1deeb" font-size="17">dim_indicator</text>
+<text x="524" y="420" fill="#d1deeb" font-size="17">→ fct_education_rates</text>
+<rect x="948" y="250" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="970" y="287" fill="#52dbc0" font-size="16">03</text>
+<text x="970" y="325" fill="#fff" font-size="23" font-weight="bold">Marts educativos</text>
+<text x="970" y="364" fill="#d1deeb" font-size="17">fct_education_rates</text>
+<text x="970" y="392" fill="#d1deeb" font-size="17">→ mart_continuity</text>
+<text x="970" y="420" fill="#d1deeb" font-size="17">→ mart_quality</text>
+<rect x="56" y="515" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="78" y="552" fill="#52dbc0" font-size="16">04</text>
+<text x="78" y="590" fill="#fff" font-size="23" font-weight="bold">Entrada de contexto</text>
+<text x="78" y="629" fill="#d1deeb" font-size="17">raw.context_observations</text>
+<text x="78" y="657" fill="#d1deeb" font-size="17">→ fct_context_indicators</text>
+<text x="78" y="685" fill="#d1deeb" font-size="17">→ dim_context_indicator</text>
+<rect x="502" y="515" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="524" y="552" fill="#52dbc0" font-size="16">05</text>
+<text x="524" y="590" fill="#fff" font-size="23" font-weight="bold">Marts de contexto</text>
+<text x="524" y="629" fill="#d1deeb" font-size="17">fct_context_indicators</text>
+<text x="524" y="657" fill="#d1deeb" font-size="17">→ mart_national_context</text>
+<text x="524" y="685" fill="#d1deeb" font-size="17">→ mart_digital_evidence</text>
+<rect x="948" y="515" width="426" height="240" rx="16" fill="#1b2d40" stroke="#34516b"/>
+<text x="970" y="552" fill="#52dbc0" font-size="16">06</text>
+<text x="970" y="590" fill="#fff" font-size="23" font-weight="bold">Procedencia transversal</text>
+<text x="970" y="629" fill="#d1deeb" font-size="17">raw.source_catalog + hechos</text>
+<text x="970" y="657" fill="#d1deeb" font-size="17">→ mart_source_coverage</text>
+<text x="970" y="685" fill="#d1deeb" font-size="17">URL · SHA-256 · localizador</text>
+<text x="56" y="837" fill="#96b0c8" font-size="17">Educación: año × geografía × nivel × grado × indicador. Contexto: país × año × indicador × subgrupo × categoría.</text></g></svg>

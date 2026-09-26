@@ -1,0 +1,1 @@
+select * from {{ ref('fct_context_indicators') }} where (value is null and value_status <> 'sin_dato') or (value is not null and value_status <> 'observado') or standard_error < 0 or (unit = '%' and (value < 0 or value > 100))

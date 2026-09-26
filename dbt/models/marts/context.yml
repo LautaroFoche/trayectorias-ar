@@ -1,0 +1,26 @@
+version: 2
+models:
+  - name: fct_context_indicators
+    description: Series y encuestas separadas por población, denominador y año de referencia; nunca imputadas a provincias.
+    columns:
+      - name: observation_id
+        data_tests: [not_null, unique]
+      - name: source_id
+        data_tests:
+          - relationships:
+              arguments:
+                to: source('education', 'source_catalog')
+                field: source_id
+      - name: value_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['observado', 'sin_dato']
+      - name: denominator
+        data_tests: [not_null]
+      - name: source_locator
+        data_tests: [not_null]
+  - name: mart_source_coverage
+    columns:
+      - name: source_id
+        data_tests: [unique, not_null]

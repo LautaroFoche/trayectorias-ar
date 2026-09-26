@@ -1,0 +1,5 @@
+[
+  {"indicator":"abandono", "url":"https://www.argentina.gob.ar/sites/default/files/2018/04/tasa_de_abandono_interanual.zip"},
+  {"indicator":"promocion", "url":"https://www.argentina.gob.ar/sites/default/files/2018/04/tasa_de_promocion_efectiva.zip"},
+  {"indicator":"repitencia", "url":"https://www.argentina.gob.ar/sites/default/files/2018/04/tasa_de_repitencia.zip"}
+]

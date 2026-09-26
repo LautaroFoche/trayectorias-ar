@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "trayectorias-ar"
+version = "2.0.0"
+description = "Pipeline auditable de trayectorias educativas en Argentina"
+requires-python = ">=3.11,<3.14"
+dependencies = ["openpyxl==3.1.5", "duckdb==1.5.5", "dbt-core==1.12.5", "dbt-duckdb==1.11.0"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+snowflake = ["dbt-snowflake>=1.10,<2"]
+
+[project.scripts]
+trayectorias = "trayectorias.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/trayectorias"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

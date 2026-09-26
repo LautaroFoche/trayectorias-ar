@@ -1,0 +1,7 @@
+{
+  "name": "trayectorias-ar-web-checks",
+  "private": true,
+  "version": "2.0.0",
+  "scripts": {"test:web": "node scripts/check_web.cjs"},
+  "devDependencies": {"jsdom": "26.1.0"}
+}

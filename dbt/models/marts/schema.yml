@@ -1,0 +1,44 @@
+version: 2
+models:
+  - name: dim_geography
+    description: 24 jurisdicciones, total nacional y dos subdivisiones de Buenos Aires. No sumar ámbitos superpuestos.
+    columns:
+      - name: geo_code
+        data_tests: [unique, not_null]
+  - name: dim_period
+    columns:
+      - name: year_from
+        data_tests: [unique, not_null]
+  - name: dim_indicator
+    columns:
+      - name: indicator
+        data_tests: [unique, not_null]
+  - name: fct_education_rates
+    description: Una observación publicada; tasas no aditivas. Grado 0 es total de nivel y 1–12 es año de escolaridad según Excel.
+    columns:
+      - name: observation_id
+        data_tests: [unique, not_null]
+      - name: geo_code
+        data_tests:
+          - relationships:
+              arguments: {to: "ref('dim_geography')", field: geo_code}
+      - name: year_from
+        data_tests:
+          - relationships:
+              arguments: {to: "ref('dim_period')", field: year_from}
+      - name: indicator
+        data_tests:
+          - relationships:
+              arguments: {to: "ref('dim_indicator')", field: indicator}
+          - accepted_values:
+              arguments: {values: [abandono, promocion, repitencia]}
+      - name: level
+        data_tests:
+          - accepted_values:
+              arguments: {values: [primaria, secundaria]}
+      - name: value_status
+        data_tests:
+          - accepted_values:
+              arguments: {values: [observado, fuera_rango_teorico, no_aplica, faltante]}
+  - name: mart_continuity
+    description: Totales por nivel, comparación oficial nacional, variación anual contextualizada y señal exploratoria de 2 pp.
